@@ -2,23 +2,21 @@ const path = require('path');
 const fs = require('fs');
 const entries = {};
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const RenameWebpackPlugin = require('rename-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const components = fs.readdirSync('./src');
-components.filter((file) => file !== 'mixins' && file !== 'themes' && file !== 'themeable.ts').forEach((componentFile) => {
-  const folderName = componentFile;
-  let fileName = 'adpl-' + folderName + '.ts'
-  entries['adpl-' + folderName] = `./src/${folderName}/${fileName}`;
-});
+// const components = fs.readdirSync('./src');
+// components.filter((file) => file !== 'mixins' && file !== 'themes' && file !== 'themeable.ts').forEach((componentFile) => {
+//   const folderName = componentFile;
+//   let fileName = 'adpl-' + folderName + '.ts'
+//   entries['adpl-' + folderName] = `./src/${folderName}/${fileName}`;
+// });
 
 
-console.log('Found files:');
-console.log(JSON.stringify(entries, null, 4));
+// console.log('Found files:');
+// console.log(JSON.stringify(entries, null, 4));
 
 const LIB_PREFIX = 'adpl'
 module.exports = {
-  entry: {...entries, main: './main.ts'},
+  entry: {main: './main.ts'},
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',

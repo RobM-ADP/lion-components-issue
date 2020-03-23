@@ -4,22 +4,25 @@
 
 </head>
 
-<body >
+<body>
    <div style="padding: 30px">
+    <p>Notice that the first time you check each radio, it works fine. But when
+        you continue clicking on radios, they stop working correctly.
+    </p>
+   <h2>Original Lion</h2>
   
-    <p>Extended</p>
-   <lion-radio-group name="dinos" label="What are your favourite dinosaurs?">
-        <adpl-radio label="allosaurus" ></adpl-radio>
-        <adpl-radio label="brontosaurus" ></adpl-radio>
-        <adpl-radio label="diplodocus"></adpl-radio>
-   </lion-radio-group>
-
-   <p>Original Lion</p>
-   <lion-radio-group name="dinos" label="What are your favourite dinosaurs?">
-    <lion-radio label="allosaurus" ></lion-radio>
-    <lion-radio label="brontosaurus" ></lion-radio>
-    <lion-radio label="diplodocus"></lion-radio>
+   <lion-radio-group name="dinos2" label="What are your favourite dinosaurs?">
+    <lion-radio label="allosaurus" .choiceValue=${'allosaurus'}></lion-radio>
+    <lion-radio label="brontosaurus" .choiceValue=${'brontosaurus'}></lion-radio>
+    <lion-radio label="diplodocus" .choiceValue=${'diplodocus'}></lion-radio>
   </lion-radio-group>
+
+  <h2>Extended</h2>
+  <adpl-radio-group name="dinos" label="What are your favourite dinosaurs?">
+   <adpl-radio label="allosaurus" .choiceValue=${'allosaurus'}></adpl-radio>
+   <adpl-radio label="brontosaurus" .choiceValue=${'brontosaurus'}></adpl-radio>
+   <adpl-radio label="diplodocus" .choiceValue=${'diplodocus'}></adpl-radio>
+  </adpl-radio-group>
 </div>
 </body>
 

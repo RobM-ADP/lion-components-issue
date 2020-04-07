@@ -6,23 +6,28 @@
 
 <body>
    <div style="padding: 30px">
-    <p>Notice that the first time you check each radio, it works fine. But when
-        you continue clicking on radios, they stop working correctly.
-    </p>
-   <h2>Original Lion</h2>
+   
+   <h2>See console for error and <code>./main.ts</code> for code.</h2>
   
    <lion-radio-group name="dinos2" label="What are your favourite dinosaurs?">
-    <lion-radio label="allosaurus" .choiceValue=${'allosaurus'}></lion-radio>
-    <lion-radio label="brontosaurus" .choiceValue=${'brontosaurus'}></lion-radio>
-    <lion-radio label="diplodocus" .choiceValue=${'diplodocus'}></lion-radio>
+    <lion-radio label="allosaurus" choiceValue='"allosaurus"'></lion-radio>
+    <lion-radio label="brontosaurus" choiceValue='"brontosaurus"'></lion-radio>
+    <lion-radio label="diplodocus" choiceValue='"diplodocus"'></lion-radio>
   </lion-radio-group>
 
-  <h2>Extended</h2>
-  <adpl-radio-group name="dinos" label="What are your favourite dinosaurs?">
-   <adpl-radio label="allosaurus" .choiceValue=${'allosaurus'}></adpl-radio>
-   <adpl-radio label="brontosaurus" .choiceValue=${'brontosaurus'}></adpl-radio>
-   <adpl-radio label="diplodocus" .choiceValue=${'diplodocus'}></adpl-radio>
-  </adpl-radio-group>
+  <p>The order in which the radio and radio-group packages are imported impacts whether this
+    error happens or not/</p>
+  <h4>When imported in this order, it doesn't throw an error</h4>
+  <pre>
+    import '@lion/radio-group/lion-radio-group.js';
+    import '@lion/radio-group/lion-radio.js';
+  </pre>
+  <h4>When imported in this order, it throws an error</h4>
+  <pre>
+    import '@lion/radio-group/lion-radio.js';
+    import '@lion/radio-group/lion-radio-group.js';
+  </pre>
+  
 </div>
 </body>
 

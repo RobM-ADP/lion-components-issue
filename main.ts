@@ -5,11 +5,3 @@
 // when imported in this order, it throws an error
 import '@lion/radio-group/lion-radio.js';
 import '@lion/radio-group/lion-radio-group.js';
-
-// when imported in this order, it doesn't throw an error
-import './src/radio-group/adpl-radio-group';
-import './src/radio/adpl-radio';
-
-// when imported in this order, it throws an error
-// import './src/radio/adpl-radio';
-// import './src/radio-group/adpl-radio-group';

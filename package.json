@@ -15,11 +15,13 @@
     "rename-webpack-plugin": "^2.0.0",
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
-    "webpack": "^4.42.0"
+    "webpack": "^4.42.0",
+    "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
     "build": "webpack",
-    "start": "static dist -p 5050 -H '{\"Access-Control-Allow-Origin\": \"*\"}'"
+    "start": "webpack-dev-server --open",
+    "start-dist": "static dist -p 8082 -H '{\"Access-Control-Allow-Origin\": \"*\"}'"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.11"

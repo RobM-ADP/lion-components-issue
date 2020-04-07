@@ -17,6 +17,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const LIB_PREFIX = 'adpl'
 module.exports = {
   entry: {main: './main.ts'},
+  devServer: {
+    contentBase: './dist',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',

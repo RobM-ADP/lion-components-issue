@@ -99,7 +99,7 @@
     "@bundled-es-modules/message-format" "6.0.4"
     "@lion/core" "0.5.1"
 
-"@lion/radio-group@^0.8.5":
+"@lion/radio-group@^0.8.7":
   version "0.8.7"
   resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/radio-group/-/radio-group-0.8.7.tgz#ed1ee285266cdf4d39d693e08f17a26ce9aa7c8b"
   integrity sha1-7R7ihSZs30051pPgjxeibOmqfIs=

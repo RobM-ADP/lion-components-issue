@@ -6,10 +6,7 @@
   "author": "McKeown, Rob (CORP) <Rob.McKeown@adp.com>",
   "license": "MIT",
   "dependencies": {
-    "@lion/button": "^0.5.9",
-    "@lion/input": "^0.5.19",
-    "@lion/radio-group": "^0.8.7",
-    "@lion/switch": "^0.7.2",
+    "@lion/radio-group": "^0.8.5",
     "copy-webpack-plugin": "^5.1.1",
     "html-webpack-plugin": "^3.2.0",
     "rename-webpack-plugin": "^2.0.0",

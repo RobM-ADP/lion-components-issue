@@ -7,146 +7,79 @@
   resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@bundled-es-modules/message-format/-/message-format-6.0.4.tgz#232da6877adb960f6c8f598c72588a84352de147"
   integrity sha1-Iy2mh3rblg9sj1mMcliKhDUt4Uc=
 
-"@lion/button@^0.5.9":
-  version "0.5.11"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/button/-/button-0.5.11.tgz#6e45e85c1f201bd88eff302ce6c02e62329fb12b"
-  integrity sha1-bkXoXB8gG9iO/zAs5sAuYjKfsSs=
+"@lion/choice-input@0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@lion/choice-input/-/choice-input-0.8.2.tgz#72c974a014e16bde747e39b2df3d8b5416f6a2c3"
+  integrity sha512-zMJYV++IpY7nCSH7+jjToYPtx0A4KNq2J7hIxgeLRqIgGVvxl4rL75KuiMQARA/q/tm8eHCsRjfefvg4ov8hyQ==
   dependencies:
-    "@lion/core" "0.5.1"
+    "@lion/core" "0.5.2"
+    "@lion/field" "0.12.2"
 
-"@lion/choice-input@0.7.7":
-  version "0.7.7"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/choice-input/-/choice-input-0.7.7.tgz#a324e25b260999e133b70376d3582a5801ccf9c2"
-  integrity sha1-oyTiWyYJmeEztwN201gqWAHM+cI=
-  dependencies:
-    "@lion/core" "0.4.5"
-    "@lion/field" "0.11.4"
-
-"@lion/choice-input@0.8.1":
-  version "0.8.1"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/choice-input/-/choice-input-0.8.1.tgz#2355f31467894ecbb1d6a0e07800fd64f9741dca"
-  integrity sha1-I1XzFGeJTsux1qDgeAD9ZPl0Hco=
-  dependencies:
-    "@lion/core" "0.5.1"
-    "@lion/field" "0.12.1"
-
-"@lion/core@0.4.5":
-  version "0.4.5"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/core/-/core-0.4.5.tgz#f976fa9d7796119af65c60d6394ddbd9969a99d1"
-  integrity sha1-+Xb6nXeWEZr2XGDWOU3b2ZaamdE=
-  dependencies:
-    "@open-wc/dedupe-mixin" "^1.2.1"
-    "@open-wc/scoped-elements" "^0.5.0"
-    lit-element "^2.2.1"
-    lit-html "^1.0.0"
-
-"@lion/core@0.5.1":
-  version "0.5.1"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/core/-/core-0.5.1.tgz#139afbc69ffb31f07ea61c38e1e489412be1aeee"
-  integrity sha1-E5r7xp/7MfB+phw44eSJQSvhru4=
+"@lion/core@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@lion/core/-/core-0.5.2.tgz#8742434ca5edab3a7b307e154dea8f325c1e573f"
+  integrity sha512-gkjuC8nmStS/KUAUmxfmoBdHnHv35kQHv99+cjpFQcIXlckBZDlePFb7R7e+LqP/oo4vl/sA8IXj6dB/Y5El9Q==
   dependencies:
     "@open-wc/dedupe-mixin" "^1.2.1"
     "@open-wc/scoped-elements" "^1.0.3"
     lit-element "^2.2.1"
     lit-html "^1.0.0"
 
-"@lion/field@0.11.4":
-  version "0.11.4"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/field/-/field-0.11.4.tgz#f38a4bfc9af4a999fab29f6c1a90d04821cd70f8"
-  integrity sha1-84pL/Jr0qZn6sp9sGpDQSCHNcPg=
+"@lion/field@0.12.2":
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/@lion/field/-/field-0.12.2.tgz#d7c418705ea85cca4aba088b054f971d265318d5"
+  integrity sha512-mlCYNEd4bSDd95uOeRpVHnUIb7M0HouWf3l5VNaidHkRXYry5bLpWVF2hFPuzxA7B7rc73wCTswK3NwuI87q7g==
   dependencies:
-    "@lion/core" "0.4.5"
-    "@lion/validate" "0.8.0"
+    "@lion/core" "0.5.2"
+    "@lion/validate" "0.9.2"
 
-"@lion/field@0.12.1":
-  version "0.12.1"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/field/-/field-0.12.1.tgz#7d71bdb21f061ce80778f7416dd36deef8c909a3"
-  integrity sha1-fXG9sh8GHOgHePdBbdNt7vjJCaM=
+"@lion/fieldset@0.10.2":
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/@lion/fieldset/-/fieldset-0.10.2.tgz#6c8739ec27f7d9c13e53bc2ecfa59255599fe123"
+  integrity sha512-rkW3l9Rr+oc8Cjvk1LhGQyuIqIvrV6inFNv6XArHEtKfQsEztJfUFgARV/iDnKdUmhaFN/NCOY9lAL+U/NZaJw==
   dependencies:
-    "@lion/core" "0.5.1"
-    "@lion/validate" "0.9.1"
+    "@lion/core" "0.5.2"
+    "@lion/field" "0.12.2"
+    "@lion/validate" "0.9.2"
 
-"@lion/fieldset@0.10.1":
-  version "0.10.1"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/fieldset/-/fieldset-0.10.1.tgz#393cc275f9c99b447e7ea5326466500c61f34b0a"
-  integrity sha1-OTzCdfnJm0R+fqUyZGZQDGHzSwo=
+"@lion/input@0.5.22":
+  version "0.5.22"
+  resolved "https://registry.yarnpkg.com/@lion/input/-/input-0.5.22.tgz#0ee1f0de8e0331f5fcca01233338df573c5bbafd"
+  integrity sha512-025TdHjxaclM1elVLQIxBotTtb27D2IyHrIA/tU9swITQk+Xk3kRMQBbmIgXMpTjGd1Quezb03c5Kqo+encK5A==
   dependencies:
-    "@lion/core" "0.5.1"
-    "@lion/field" "0.12.1"
-    "@lion/validate" "0.9.1"
+    "@lion/core" "0.5.2"
+    "@lion/field" "0.12.2"
 
-"@lion/input@0.5.21", "@lion/input@^0.5.19":
-  version "0.5.21"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/input/-/input-0.5.21.tgz#fee307bf1b96d8da5fad9bfe889e37b597e36768"
-  integrity sha1-/uMHvxuW2NpfrZv+iJ43tZfjZ2g=
-  dependencies:
-    "@lion/core" "0.5.1"
-    "@lion/field" "0.12.1"
-
-"@lion/localize@0.8.10":
-  version "0.8.10"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/localize/-/localize-0.8.10.tgz#3a84ca1dc46cca6f939fcd98fa1fa0e9217ac974"
-  integrity sha1-OoTKHcRsym+Tn82Y+h+g6SF6yXQ=
+"@lion/localize@0.9.2":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@lion/localize/-/localize-0.9.2.tgz#96c053a87aae62976e4f8d9e93bccf970fe28dab"
+  integrity sha512-h0rF/b/DFuiulun/Zws8XXCUwcoRLympwFPrp4l1Ukhd9Rih4CvLYpKiCz2Rz06S7vy2CmXl+KNgqci3TegzUQ==
   dependencies:
     "@bundled-es-modules/message-format" "6.0.4"
-    "@lion/core" "0.4.5"
+    "@lion/core" "0.5.2"
 
-"@lion/localize@0.9.1":
-  version "0.9.1"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/localize/-/localize-0.9.1.tgz#a3440942cd2bdcbc72ae29d0ab2abb17a78dbdb1"
-  integrity sha1-o0QJQs0r3LxyrinQqyq7F6eNvbE=
+"@lion/radio-group@^0.8.5":
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/@lion/radio-group/-/radio-group-0.8.8.tgz#eeea10f96fbd6c240d9cd8240921a112f6dd238c"
+  integrity sha512-VD5o6mK2KcCIWDojRSst5Spn8gdfXj6Ob3Wm+TUDV8+w7Tqtu6FYcPpT8FBhTUYKrVkVDZUPWu8Exrx7sYxSRA==
   dependencies:
-    "@bundled-es-modules/message-format" "6.0.4"
-    "@lion/core" "0.5.1"
+    "@lion/choice-input" "0.8.2"
+    "@lion/core" "0.5.2"
+    "@lion/fieldset" "0.10.2"
+    "@lion/input" "0.5.22"
 
-"@lion/radio-group@^0.8.7":
-  version "0.8.7"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/radio-group/-/radio-group-0.8.7.tgz#ed1ee285266cdf4d39d693e08f17a26ce9aa7c8b"
-  integrity sha1-7R7ihSZs30051pPgjxeibOmqfIs=
+"@lion/validate@0.9.2":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@lion/validate/-/validate-0.9.2.tgz#287e7646929bc47b832ea05b8d3d2a9185d0ec74"
+  integrity sha512-m8a+L6BWh2aD1QEL5BPLSywW0PcCFrukmQ6EqALBEoU7yoE4fX9Gbj1235ejV0Fw3GYHEIaGiAnvqHt+BZf72w==
   dependencies:
-    "@lion/choice-input" "0.8.1"
-    "@lion/core" "0.5.1"
-    "@lion/fieldset" "0.10.1"
-    "@lion/input" "0.5.21"
+    "@lion/core" "0.5.2"
+    "@lion/localize" "0.9.2"
 
-"@lion/switch@^0.7.2":
-  version "0.7.2"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/switch/-/switch-0.7.2.tgz#f3d1ed9344249c72def48ab0191ce8428e9ed70a"
-  integrity sha1-89Htk0QknHLe9IqwGRzoQo6e1wo=
-  dependencies:
-    "@lion/choice-input" "0.7.7"
-    "@lion/core" "0.4.5"
-    "@lion/field" "0.11.4"
-
-"@lion/validate@0.8.0":
-  version "0.8.0"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/validate/-/validate-0.8.0.tgz#7a1ef9b8913722ede3a49757f7d5d5ec460ef407"
-  integrity sha1-eh75uJE3Iu3jpJdX99XV7EYO9Ac=
-  dependencies:
-    "@lion/core" "0.4.5"
-    "@lion/localize" "0.8.10"
-    "@open-wc/scoped-elements" "^0.5.0"
-
-"@lion/validate@0.9.1":
-  version "0.9.1"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@lion/validate/-/validate-0.9.1.tgz#e4e201e4f2a4aef1733161e22812648b60cdcae7"
-  integrity sha1-5OIB5PKkrvFzMWHiKBJki2DNyuc=
-  dependencies:
-    "@lion/core" "0.5.1"
-    "@lion/localize" "0.9.1"
-
-"@open-wc/dedupe-mixin@^1.1.1", "@open-wc/dedupe-mixin@^1.2.1", "@open-wc/dedupe-mixin@^1.2.15":
+"@open-wc/dedupe-mixin@^1.2.1", "@open-wc/dedupe-mixin@^1.2.15":
   version "1.2.15"
   resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@open-wc/dedupe-mixin/-/dedupe-mixin-1.2.15.tgz#d9f6f5a3398a761b50ae279f60e5727f5e630938"
   integrity sha1-2fb1ozmKdhtQriefYOVyf15jCTg=
-
-"@open-wc/scoped-elements@^0.5.0":
-  version "0.5.0"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/@open-wc/scoped-elements/-/scoped-elements-0.5.0.tgz#485b0e530acb3530933198af66f5dbef1e64a277"
-  integrity sha1-SFsOUwrLNTCTMZivZvXb7x5konc=
-  dependencies:
-    "@open-wc/dedupe-mixin" "^1.1.1"
-    lit-element "^2.0.1"
 
 "@open-wc/scoped-elements@^1.0.3":
   version "1.0.7"
@@ -1609,9 +1542,9 @@ faye-websocket@~0.11.1:
     websocket-driver ">=0.5.1"
 
 figgy-pudding@^3.5.1:
-  version "3.5.1"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
-  integrity sha1-hiRwESkBxyeg5JWoB0S9W6odZ5A=
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
+  integrity sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==
 
 file-uri-to-path@1.0.0:
   version "1.0.0"
@@ -2436,7 +2369,7 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
-lit-element@^2.0.1, lit-element@^2.2.1:
+lit-element@^2.2.1:
   version "2.3.1"
   resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/lit-element/-/lit-element-2.3.1.tgz#73343b978fa1e73d60526c6bb6ad60f53a16c343"
   integrity sha1-czQ7l4+h5z1gUmxrtq1g9ToWw0M=
@@ -3747,9 +3680,9 @@ split-string@^3.0.1, split-string@^3.0.2:
     extend-shallow "^3.0.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://artifactoryprod.es.ad.adp.com/artifactory/api/npm/vantage-npm/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha1-KjxBso3UW2K2Nnbst0ABJlrp7dg=
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
